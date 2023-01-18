@@ -82,6 +82,7 @@ avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de 
 ![with docker](https://user-images.githubusercontent.com/105390951/213164752-d17b7a64-3f49-441c-a690-509eeaefcd31.PNG)
 
 ![billingservice](https://user-images.githubusercontent.com/105390951/213164669-8ea3e1ed-10ac-4a7c-9d57-9ddce468e18f.PNG)
+![image](https://user-images.githubusercontent.com/105390951/213178316-bf0aec27-804d-471a-93ee-033c761db7e1.png)
 
 
  Réalisé par : Lemsyeh Maryam 
