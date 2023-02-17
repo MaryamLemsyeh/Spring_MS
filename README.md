@@ -44,15 +44,15 @@ Navigateur de choix.
 
 # Explications et captures d'écran :
 
-Créer le gatway qui va essayer de dispatcher les requettes vers les bons microservices.
-##Méthode 1 :
+## Créer le gatway qui va essayer de dispatcher les requettes vers les bons microservices.
+### Méthode 1 :
 pour configurer le gateway on peut utiliser un fichier de format .yml
 ![actuator 2](https://user-images.githubusercontent.com/105390951/206061225-90217f05-acfc-42f3-a0e2-61465400336b.PNG)
 ![beansactuator1](https://user-images.githubusercontent.com/105390951/206061219-63bd5439-a761-4512-aa20-d7690c86440a.PNG)
 ![product bdd](https://user-images.githubusercontent.com/105390951/208404878-85ce1a57-9fd4-425b-a469-b3ad3b1a6c25.PNG)
 ![bdd console](https://user-images.githubusercontent.com/105390951/208404876-94e0ba19-d746-4819-9fbc-b7b546a522df.PNG)
 
-## Méthode 2 : 
+### Méthode 2 : 
 on peut utiliser une configuration java, 
 on créer une classe de configuration, une méthode qui retourne un bean (objet route locator) pour configurer les routes, ila  besoin d'un objet en parametres qui s'appelle route locator builder, 
 On a besoin d'un rapidAPI countries c'est une service public connaissant l'adresse on peut l'utiliser, il est un service externe qui ne s'enregistre pas sur discovery.
@@ -63,7 +63,7 @@ lorsqu'on utilise la configuration statique y'a pas de log balancer, si on a plu
 ![cust](https://user-images.githubusercontent.com/105390951/208405811-eac92f19-4c04-4ec0-8eab-e774b1dfa350.PNG)
 ![enable eureka all](https://user-images.githubusercontent.com/105390951/206061277-b518c321-e3b9-4e3f-a1ac-5ae20aa86ebc.PNG)
 
-## Méthode 3 : 
+### Méthode 3 : 
 on créer eureka server, pour activer eureka server il faut utiliser l'annotation EnableEurekaServer, on démarre.
 on active spring.cloud.discovery.enabled sur true, on trouve 3 microservices enregistrés, customer-service, product-service et gateway-service.
 dans gateway on modifie la configuration , au lieu de localhost, on utilise que le nom du microservice , lb = log balancer.
@@ -72,7 +72,7 @@ dans gateway on modifie la configuration , au lieu de localhost, on utilise que 
 ![products](https://user-images.githubusercontent.com/105390951/208406840-3787df07-1a96-4387-908e-f182e80b4d5e.PNG)
 
 
-Ajouter billing-service :
+## Ajouter billing-service :
 Créer class client sous billing-service, quand je consulte un customer, openfile deserialize, prend les données JSON et les stock dans objet. faut garder les mêmes nom sinon on ajoute des annotations JACKSON pour faire la correspondance entre les 
 avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de communiquer avec les microservices via rest.
 
@@ -83,6 +83,16 @@ avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de 
 
 ![billingservice](https://user-images.githubusercontent.com/105390951/213164669-8ea3e1ed-10ac-4a7c-9d57-9ddce468e18f.PNG)
 ![image](https://user-images.githubusercontent.com/105390951/213178316-bf0aec27-804d-471a-93ee-033c761db7e1.png)
+
+## Créer un clien web Angular (Consumer, product, bill) 
+Consumer : 
+![an](https://user-images.githubusercontent.com/105390951/219729594-dcbef984-f0dd-4f3f-80d4-6e880db8a2ac.png)
+Product : 
+![angular prod](https://user-images.githubusercontent.com/105390951/219729748-0d6ea514-ec1b-40ab-b4c4-f9f8adb05f9f.PNG)
+Bill : 
+![bill](https://user-images.githubusercontent.com/105390951/219729895-02aafad9-7cdb-494b-b12b-5d717f3b3512.png)
+
+## Kafka Broker integration : 
 
 
  Réalisé par : Lemsyeh Maryam 
