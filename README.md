@@ -84,11 +84,11 @@ avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de 
 ![billingservice](https://user-images.githubusercontent.com/105390951/213164669-8ea3e1ed-10ac-4a7c-9d57-9ddce468e18f.PNG)
 
 ## Créer un clien web Angular (Consumer, product, bill) 
-Consumer : 
+### Consumer : 
 ![an](https://user-images.githubusercontent.com/105390951/219729594-dcbef984-f0dd-4f3f-80d4-6e880db8a2ac.png)
-Product : 
+### Product : 
 ![angular prod](https://user-images.githubusercontent.com/105390951/219729748-0d6ea514-ec1b-40ab-b4c4-f9f8adb05f9f.PNG)
-Bill : 
+### Bill : 
 ![bill](https://user-images.githubusercontent.com/105390951/219729895-02aafad9-7cdb-494b-b12b-5d717f3b3512.png)
 
 ## Kafka Broker integration : 
