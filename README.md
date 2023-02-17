@@ -88,7 +88,7 @@ avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de 
 ### Product : 
 ![angular prod](https://user-images.githubusercontent.com/105390951/219729748-0d6ea514-ec1b-40ab-b4c4-f9f8adb05f9f.PNG)
 ### Bill : 
-![bill](https://user-images.githubusercontent.com/105390951/219729895-02aafad9-7cdb-494b-b12b-5d717f3b3512.png)
+![bill](https://user-images.githubusercontent.com/105390951/219739372-053db488-aa38-4785-bfa2-9921b8f341b2.png)
 
 ## Kafka Broker integration : 
 
