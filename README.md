@@ -86,7 +86,8 @@ avoir le detail sur les produits et clients, on utilise OpenFeign qui permet de 
 ### Consumer : 
 ![an](https://user-images.githubusercontent.com/105390951/219729594-dcbef984-f0dd-4f3f-80d4-6e880db8a2ac.png)
 ### Product : 
-![angular prod](https://user-images.githubusercontent.com/105390951/219729748-0d6ea514-ec1b-40ab-b4c4-f9f8adb05f9f.PNG)
+![angular prod](https://user-images.githubusercontent.com/105390951/219740490-4cb675b2-3e77-40a5-8a2a-39558e1db351.PNG)
+
 ### Bill : 
 ![bill](https://user-images.githubusercontent.com/105390951/219739372-053db488-aa38-4785-bfa2-9921b8f341b2.png)
 
