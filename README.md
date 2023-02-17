@@ -30,11 +30,15 @@ Créer une application basée sur une architecture micro-service qui permet de g
 
 # Outils : 
 
-Spring cloud.
+Spring cloud
 
-Intellij.
+Kafka Stream
 
-Navigateur de choix.
+Intellij
+
+Navigateur de choix
+
+Angular
 
 # Démarrer le projet :
 
